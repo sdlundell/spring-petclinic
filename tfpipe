@@ -1,4 +1,3 @@
-
 pipeline {
   parameters {
     password (name: 'AWS_ACCESS_KEY_ID')
@@ -26,6 +25,7 @@ pipeline {
         input 'Apply Plan'
         sh "${env.TERRAFORM_HOME}/terraform apply -input=false tfplan"
       }
+    }
 
     stage 'Compile' 
         node { 
@@ -42,4 +42,3 @@ pipeline {
         } 
     }
   }
-}
