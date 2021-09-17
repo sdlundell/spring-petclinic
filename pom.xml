@@ -120,11 +120,11 @@
          <version>2.2</version>
          <configuration>
          <server>tomcat-development-server</server>
-         <url>http://44.198.108.188:8080/manager/text</url>
+         <url>http://23.21.241.40:8080/manager/text</url>
          <warFile>target\petclinic.war</warFile>
          <path>/petclinic</path>
-         <username>slundell</username>
-        <password>$p3nc3rl</password>
+         <username>admin</username>
+        <password>cloud@123</password>
          </configuration>
      </plugin>  
       <plugin>
